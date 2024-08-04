@@ -1,0 +1,47 @@
+body{
+  background-color:wheat;
+}
+.container{
+  background-color: white;
+  width: 30%;
+  border-radius: 8px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   box-shadow: 0 0 10px 0 rgb(0,0,0,0.6);
+}
+h1{
+  text-align: center;
+}
+#inputVal{
+  display: block;
+  width: 80%;
+  padding:10px;
+  margin:20px 40px;
+  outline: none;
+  border:2px dotted black;
+  border-radius: 5px;
+  font-size:15px;
+}
+
+.btn{
+  width: 85%;
+  padding:10px;
+  margin:2px 40px;
+  cursor: pointer;
+  background-color: rgb(43, 209, 43);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  font-size:20px;
+  font-family:'Times New Roman', Times, serif;
+
+}
+#image{
+  display: block;
+  width:40%;
+  margin:0 auto;
+  padding:10px;
+}
