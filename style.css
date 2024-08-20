@@ -1,47 +1,80 @@
-body{
-  background-color:wheat;
-}
-.container{
-  background-color: white;
-  width: 30%;
-  border-radius: 8px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   box-shadow: 0 0 10px 0 rgb(0,0,0,0.6);
-}
-h1{
-  text-align: center;
-}
-#inputVal{
-  display: block;
-  width: 80%;
-  padding:10px;
-  margin:20px 40px;
-  outline: none;
-  border:2px dotted black;
-  border-radius: 5px;
-  font-size:15px;
+body {
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.btn{
-  width: 85%;
-  padding:10px;
-  margin:2px 40px;
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+#inputVal {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  outline: none;
+  border: 2px dotted black;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
   cursor: pointer;
   background-color: rgb(43, 209, 43);
   border: none;
   outline: none;
   color: white;
   border-radius: 5px;
-  font-size:20px;
-  font-family:'Times New Roman', Times, serif;
-
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
 }
-#image{
+
+#image {
   display: block;
-  width:40%;
-  margin:0 auto;
-  padding:10px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+    max-width: 500px;
+  }
+
+  #inputVal {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .btn {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #image {
+    width: 50%;
+  }
 }
